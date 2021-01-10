@@ -1,0 +1,80 @@
+@media (min-width: 750px) {
+  header nav {
+    top: 0;
+    position: relative;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px; }
+    header nav .logo {
+      margin: 0;
+      margin-top: 22px;
+      height: 36px; }
+    header nav label {
+      display: none; }
+    header nav input {
+      display: none; }
+  header ul.menu-desplegable {
+    justify-content: flex-end;
+    display: flex;
+    right: 50px;
+    padding-top: 0;
+    position: absolute;
+    padding-left: 0;
+    width: auto;
+    height: 80px;
+    background: transparent; }
+    header ul.menu-desplegable li {
+      height: 28px;
+      margin: 0;
+      margin-left: 48px;
+      margin-top: 26px; }
+      header ul.menu-desplegable li:first-child {
+        margin-top: 26px; }
+      header ul.menu-desplegable li a {
+        color: #060A24; }
+  header h1, header p, header .boton {
+    margin-left: 50px; }
+  header h1 {
+    margin-top: 120px;
+    font-size: 64px;
+    line-height: 54px; }
+    header h1 span.underline::before {
+      content: "";
+      width: 163px;
+      height: 4px;
+      bottom: 71px; }
+  header p {
+    width: 43%;
+    top: 0; }
+  header .boton {
+    margin-top: 56px;
+    width: 226px;
+    height: 56px; }
+
+  section div.frame {
+    height: 800px; }
+    section div.frame h2 {
+      margin-top: 150px; }
+    section div.frame .fondo {
+      top: 7%;
+      height: 88.5%; }
+    section div.frame .container-iframe {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      section div.frame .container-iframe iframe {
+        width: 45%; }
+  section div.history img {
+    display: flex;
+    justify-content: center;
+    margin: auto; }
+  section .collaps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; }
+    section .collaps img {
+      justify-content: center;
+      width: 50%;
+      margin: 0 auto; } }
+
+/*# sourceMappingURL=media-query.css.map */

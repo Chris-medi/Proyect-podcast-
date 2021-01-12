@@ -16,18 +16,18 @@
         <nav>
             <img src="files/img/logo.svg" alt="logo" class="logo">   
             <input type="checkbox" name="desplegable" id="burguer">
-            <label for="burguer">
-                <div class="fabicon-menu">
-                    <div class="open">
-                        <div class="lin"></div>
-                        <div class="lin"></div>
-                        <div class="lin"></div>
-                    </div>
-                    <div class="close">
-                        <div class="lin cerrar"></div>
-                        <div class=" lin cerrar"></div>
-                    </div>
-                </div>
+            <label for="burguer"> 
+                <span class="icon-menu">
+                    <span class="open">
+                        <span class="lin"></span>
+                        <span class="lin"></span>
+                        <span class="lin"></span>
+                    </span>
+                    <span class="close">
+                        <span class="lin cerrar"></span>
+                        <span class="lin cerrar"></span>
+                    </span>
+                </span>
             </label> 
             <ul class="menu-desplegable">
                 <li>
@@ -47,10 +47,7 @@
         <h1>Hello 
             <span class="underline">world
             </span>  
-            <br> pale blue dot 
-            <span class="pin">.       
-            </span>
-        </p>
+            <br> pale blue dot<span class="pin">.</span>
         </h1>
         <p class="text-mobile">
             Un podcast que explora el mundo de la programación. 
@@ -60,18 +57,17 @@
             El portal de podcasts que explora el mundo de la programación y la tecnología. 
             Nuevos episodios, todos los jueves cada 15 días .
         <div class="boton">
-            <span>CONOCÉ MÁS
-            </span>
+            <a href="#">CONOCÉ MÁS</a>
         </div>
     </header>
     <section>
         <div  class="frame" id="episodios" >
             <h2>Episodios</h2>
             <div class="container-iframe">
-                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" width="584" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" width="584" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" width="584" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>  
-                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" width="584" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"  width="584" height="232" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"  width="584" height="232" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"  width="584" height="232" allow="encrypted-media"></iframe>  
+                <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"  width="584" height="232" allow="encrypted-media"></iframe>
             </div>
                 <div class="fondo"></div>
         </div>
@@ -92,8 +88,8 @@
             <img src="files/img/Katie-Bouman.png" alt="Katherine Louise Bouman es una científica de la computación que investiga en nuevos sistemas para formación de imágenes por ordenador. ">
             <img src="files/img/grace-hopper.png" alt="Grace Murray Hopper fue una científica de la computación y militar estadounidense con grado de contraalmirante. Fue pionera en el mundo de las ciencias de la computación y la primera programadora que utilizó el Mark.">
             <img src="files/img/Margaret_Hamilton.png" alt="Margaret Hamilton Fue directora de la División de Ingeniería de Software del Laboratorio de Instrumentación del MIT, donde con su equipo desarrolló el software de navegación para el Programa Espacial Apolo​.">
-            <img src="files/img/An E.R.A.Univac 1103 computer in the 1950s.png" alt="la primer computador comercial de Estados Unidos">
-            <img src="files/img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="ENIAC ue una de las primeras computadoras de propósito general. Era Turing-completa, digital, y susceptible de ser reprogramada para resolver una extensa clase de problemas numéricos.">
+            <img src="files/img/An-E.R.A.Univac-1103-computer-in-the-1950s.png " alt="la primer computador comercial de Estados Unidos">
+            <img src="files/img/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png " alt="ENIAC ue una de las primeras computadoras de propósito general. Era Turing-completa, digital, y susceptible de ser reprogramada para resolver una extensa clase de problemas numéricos.">
             <img src="files/img/susan-kare.png" alt="Susan Kare es una artista y diseñadora gráfica estadounidense, creadora de muchos de los elementos de la interfaz Apple Macintosh en la década de 1980.​También fue una de los empleadas de NeXT, donde trabajó como directora creativa.">
         </div>
         <div id="topicos" class="tema">
@@ -107,8 +103,8 @@
                 <div class="child">
                     <img src="files/img/icon2.svg" alt="">
                     <h3>Repensando la programación</h3>
-                </div class="child">
-                <div class="child">
+                </div>
+                <div class="child" >
                     <img src="files/img/icon3.svg" alt="">
                     <h3>Bases de códigos</h3>
                 </div>
@@ -120,7 +116,8 @@
         </div>
         <div class="new">
             <h2>¿Querés las últimas novedades</h2>
-            <div class="boton"><span>ESCUCHÁ LOS EPISODIOS</span></div>
+            <div class="boton"><a href="#episodios">ESCUCHÁ LOS EPISODIOS</a>
+            </div>
             <div class = "custom"> 
             </div>
         </div>
@@ -128,11 +125,21 @@
     <Footer>
         <h4>© 2019— Hello blue pale dot</h4>
         <div> 
-            <i class="fab fa-spotify"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
-            <i class="fab fa-facebook"></i>
-            <i class="fab fa-telegram"></i>
+            <a href="#">
+                <i class=" fa-spotify"></i>
+            </a>
+            <a href="#">
+                <i class=" fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class=" fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class=" fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa-telegram"></i>
+            </a>
         </div>
     </Footer>
 </body>

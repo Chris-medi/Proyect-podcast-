@@ -7,7 +7,8 @@ body {
   max-width: 1440px;
   margin: auto; }
 
-.boton {
+.boton a{
+  text-decoration: none;
   width: 288px;
   height: 48px;
   margin: 16px;
@@ -22,7 +23,7 @@ body {
   justify-content: center;
   margin-bottom: 24px;
   font-weight: 500; }
-  .boton:hover {
+  .boton a:hover {
     font-weight: 500;
     background: #00F3BB;
     background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
@@ -73,14 +74,14 @@ header {
       margin: 10px 243px 10px 16px; }
     header nav #burguer {
       visibility: hidden; }
-    header nav .fabicon-menu {
+    header nav span.icon-menu {
       margin: 16px 19px 16px 0;
       position: absolute;
       width: 18px;
       height: 12px;
       right: 0;
       bottom: 0; }
-      header nav .fabicon-menu .lin {
+      header nav span.icon-menu .lin {
         width: 18px;
         height: 2px;
         background: black;
@@ -88,19 +89,19 @@ header {
         display: flex;
         align-items: center;
         justify-content: center; }
-      header nav .fabicon-menu .open .lin:nth-child(2) {
+      header nav label span.icon-menu .open .lin:nth-child(2) {
         margin-top: 3px;
         margin-bottom: 3px; }
-      header nav .fabicon-menu .close {
+      header nav  label span.icon-menu .close {
         width: 18px;
         height: 12px;
         display: none; }
-        header nav .fabicon-menu .close .cerrar {
+        header nav  label span.icon-menu .close .cerrar {
           position: absolute; }
-          header nav .fabicon-menu .close .cerrar:first-child {
+          header nav .icon-menu .close .cerrar:first-child {
             transform: rotate(140deg);
             top: 4px; }
-          header nav .fabicon-menu .close .cerrar:last-child {
+          header nav .icon-menu .close .cerrar:last-child {
             transform: rotate(-140deg);
             top: 4px; }
   header ul.menu-desplegable {
@@ -139,9 +140,9 @@ header {
           color: gray; }
   header input:checked ~ .menu-desplegable {
     display: block; }
-  header input:checked ~ label > .fabicon-menu > .open {
+  header input:checked ~ label > .icon-menu > .open {
     display: none; }
-  header input:checked ~ label > .fabicon-menu > .close {
+  header input:checked ~ label > .icon-menu > .close {
     display: block; }
   header h1 {
     margin-left: 16px;
@@ -197,6 +198,8 @@ section {
       align-items: center;
       justify-content: center; }
       section div.frame .container-iframe iframe {
+        border: 0;
+        background: transparent;
         width: 94%;
         min-width: 298px;
         z-index: 9;
@@ -210,7 +213,7 @@ section {
     height: auto;
     position: relative; }
     section div.history h2 {
-      font-weight: 300;
+      font-weight: 400;
       margin: 27px 16px 8px 16px;
       margin-bottom: 14px;
       position: relative; }
@@ -222,7 +225,7 @@ section {
       margin: 0 16px 54px 16px; }
     section div.history img {
       height: 519px;
-      margin-top: -107.5px; }
+      margin-top: -96.5px; }
   section .collaps {
     display: flex;
     flex-direction: column;
@@ -242,7 +245,7 @@ section {
     align-items: center; }
     section .tema h2 {
       margin: 48px 16px 0 16px;
-      font-weight: 100; }
+      font-weight: 400; }
     section .tema .child {
       display: flex;
       align-items: center;
@@ -277,7 +280,7 @@ section {
       margin: 0 16px 36px 16px;
       color: white;
       text-align: center;
-      font-weight: 400; }
+      font-weight: 300; }
     section div.new .boton {
       margin: auto; }
     section div.new .custom {
@@ -300,9 +303,11 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 16px 45px 31px 45px; }
-    footer div .fab {
+    footer div a {
+      color:#060A24;}
+    footer div a {
       padding-right: 38px; }
-      footer div .fab:last-child {
+      footer div a:last-child {
         padding-right: 0; }
 
 /*# sourceMappingURL=style.css.map */

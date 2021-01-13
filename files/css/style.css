@@ -281,7 +281,7 @@ section {
       color: white;
       text-align: center;
       font-weight: 300; }
-    section div.new .boton a{
+    section div.new .boton {
       margin: auto; }
     section div.new .custom {
       top: 15px;

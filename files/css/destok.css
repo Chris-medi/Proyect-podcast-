@@ -16,6 +16,8 @@
       display: none; }
     header h1 span.underline::before {
       bottom: 12px; }
+      header h1 span.pin{
+        color:#0000fe ;}
   header p {
     font-size: 16px;
     width: 43%;
@@ -24,9 +26,6 @@
       display: none; }
     header p.text-destok {
       display: block; }
-      header h1 span.pin{
-        color:#0000fe ;
-      }
   section h2 {
     font-size: 48px; }
   section div.frame {
@@ -136,7 +135,7 @@
       height: 28px;
       font-size: 16px;
       margin-bottom: 0; }
-    footer div a{
+    footer div {
       width: auto;
       margin: 0; } }
 

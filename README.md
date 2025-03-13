@@ -1,7 +1,5 @@
 # 🎙️ Proyecto Podcast - Plataforma Responsive para Podcasts
 
-![Podcast Banner](https://your-image-url.com/banner.png)
-
 🚀 Proyecto de una página web **100% responsive** para explorar podcasts, diseñado solo con **HTML y CSS**.
 
 ## 🌟 Características
